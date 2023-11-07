@@ -1,0 +1,23 @@
+{
+  "name": "greetings-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha test/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^10.0.3",
+    "@types/node": "^20.8.10",
+    "@types/pg": "^8.10.7",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
